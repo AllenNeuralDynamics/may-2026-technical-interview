@@ -24,7 +24,7 @@ A designated `main_dict` dictionary acts as the authoritative source — its exi
 2. **Top-level keys that exist only in the `incoming_dict`** → added to the merged result.
 3. **Top-level keys that exist in both dictionaries:**
    - If the value in `main_dict` is **already populated** (non-null, non-empty), it takes precedence and must **not** be overwritten.
-   - If the value in `main_dict` is `null`, `""`, `{}`, or `[]` (empty/unset), the incoming value may fill it in.
+   - If the value in `main_dict` is `None`, `""`, `{}`, or `[]` (empty/unset), the incoming value may fill it in.
 4. **Nested objects (recursive merge):**
    - When both dictionaries have an object at the same key, the merge should recurse into the nested structure and apply the same precedence rules at every level.
    - `main_dict` values always win at any depth if they are populated.
