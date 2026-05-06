@@ -41,14 +41,16 @@ A designated `main_dict` dictionary acts as the authoritative source — its exi
 **`main_dict`**
 ```python
 
-### Example 1 ###
+
 
 
 def merge_json(main_dict: dict, incoming_dict: dict) -> dict:
   pass
 
+
 if __name__ == "__main__":
 
+### Example 1 ###
 
 ex1_main = {
     "name": "Acme Corp",
