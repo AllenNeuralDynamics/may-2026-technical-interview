@@ -45,9 +45,6 @@ Code for use during the technical interview
 def merge_json(main_dict: dict, incoming_dict: dict) -> dict:
   pass
 
-
-if __name__ == "__main__":
-
 ### Example 1 ###
 
 ex1_main = {
@@ -133,7 +130,7 @@ ex2_result = {
       "links": ["https://jdoe.dev"],
       "avatar": "avatar.png"
     },
-    "active": true,
+    "active": True,
     "role": "admin"
   }
 
@@ -151,7 +148,7 @@ ex3_incoming = {
   "settings": {
     "theme": "light",
     "notifications": {
-      "email": true,
+      "email": True,
       "sms": false
     }
   },
@@ -162,7 +159,7 @@ ex3_result = {
     "settings": {
       "theme": "dark",
       "notifications": {
-        "email": true,
+        "email": True,
         "sms": false
       }
     },
