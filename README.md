@@ -34,11 +34,9 @@ A designated `main_dict` dictionary acts as the authoritative source — its exi
 
 ---
 
-## Examples
+## Sample code
 
-### Example 1
-
-**`main_dict`**
+Code for use during the technical interview
 ```python
 
 
